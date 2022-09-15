@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(baseContext, "Saved",
             Toast.LENGTH_SHORT).show()
     }
+
     fun clearData(view: View) {
         editTextName!!.text.clear()
         editTextEmail!!.text.clear()
