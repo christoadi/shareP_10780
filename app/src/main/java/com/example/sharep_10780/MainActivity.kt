@@ -69,6 +69,7 @@ class MainActivity : AppCompatActivity() {
         editor.apply()
         Toast.makeText(baseContext, "Saved",
             Toast.LENGTH_SHORT).show()
+
     }
 
     fun clearData(view: View) {
